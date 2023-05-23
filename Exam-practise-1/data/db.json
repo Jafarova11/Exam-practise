@@ -1,0 +1,32 @@
+{
+  "news": [
+    {
+      "title": "Cum enim facilis dol",
+      "main": "Voluptas excepturi d",
+      "price": "609",
+      "photo": "../images/st-blog-2.jpg",
+      "id": 1
+    },
+    {
+      "title": "Voluptate laudantium",
+      "main": "Quidem cumque explic",
+      "price": "302",
+      "photo": "../images/st-blog-3.jpg",
+      "id": 2
+    },
+    {
+      "title": "Autem hic non qui la",
+      "main": "Sed sunt do ratione ",
+      "price": "821",
+      "photo": "../images/st-blog-1.jpg",
+      "id": 3
+    },
+    {
+      "title": "Voluptate porro labo",
+      "main": "Quod ea est ea et",
+      "price": "585",
+      "photo": "../images/st-blog-2.jpg",
+      "id": 4
+    }
+  ]
+}
