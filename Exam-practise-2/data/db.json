@@ -1,0 +1,30 @@
+{
+  "children": [
+    {
+      "id": 1,
+      "name": "Emma",
+      "age": 13,
+      "photo": "../images/children_2.jpg"
+    },
+    {
+      "photo": "../images/children_1.jpg",
+      "name": "Paul Whitehead",
+      "age": "9",
+      "id": 2
+    },
+    {
+      "photo": "../images/children_5.jpg",
+      "name": "Yen Hall",
+      "age": "5",
+      "id": 3
+    }
+  ],
+  "fav": [
+    {
+      "photo": "../images/children_1.jpg",
+      "name": "Paul Whitehead",
+      "age": "9",
+      "id": 2
+    }
+  ]
+}
