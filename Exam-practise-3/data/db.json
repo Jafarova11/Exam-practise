@@ -1,0 +1,62 @@
+{
+  "news": [
+    {
+      "title": "Nobis deleniti quisq",
+      "main": "Hic consequatur ten",
+      "photo": "../images/as.png",
+      "price": "176",
+      "id": 4
+    },
+    {
+      "title": "Minima nulla facilis",
+      "main": "Quod dolores sed acc",
+      "photo": "../images/checklist.png",
+      "price": "690",
+      "id": 5
+    },
+    {
+      "title": "Occaecat exercitatio",
+      "main": "Velit maxime aut in ",
+      "photo": "../images/checklist.png",
+      "price": "548",
+      "id": 6
+    },
+    {
+      "title": "Ipsum neque molestia",
+      "main": "Aut id expedita occa",
+      "photo": "../images/checklist.png",
+      "price": "245",
+      "id": 7
+    }
+  ],
+  "favs": [
+    {
+      "title": "Ipsum neque molestia",
+      "main": "Aut id expedita occa",
+      "photo": "../images/checklist.png",
+      "price": "245",
+      "id": 7
+    },
+    {
+      "title": "Occaecat exercitatio",
+      "main": "Velit maxime aut in ",
+      "photo": "../images/checklist.png",
+      "price": "548",
+      "id": 6
+    },
+    {
+      "title": "Minima nulla facilis",
+      "main": "Quod dolores sed acc",
+      "photo": "../images/checklist.png",
+      "price": "690",
+      "id": 5
+    },
+    {
+      "title": "Nobis deleniti quisq",
+      "main": "Hic consequatur ten",
+      "photo": "../images/as.png",
+      "price": "176",
+      "id": 4
+    }
+  ]
+}

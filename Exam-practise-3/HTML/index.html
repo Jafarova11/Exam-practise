@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../SCSS/main.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"
+      integrity="sha512-uMtXmF28A2Ab/JJO2t/vYhlaa/3ahUOgj1Zf27M5rOo8/+fcTUVH0/E0ll68njmjrLqOBjXM3V9NiPFL5ywWPQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <title>BizPro</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <img src="../images/logo.png" alt="logo" />
+          <ul>
+            <li><a href="../HTML/index.html">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">PORTFOLIO</a></li>
+            <li><a href="#our-team">TEAM</a></li>
+            <li><a href="#">SKILL</a></li>
+            <li><a href="#">CLIENTS</a></li>
+            <li><a href="#">PRICING</a></li>
+            <li><a href="#our-latest-blog">BLOG</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="../HTML/add&edit.html">ADD NEW</a></li>
+            <li><a href="../HTML/favourites.html">FAVOURITES</a></li>
+          </ul>
+          <i class="fa-solid fa-bars w-100"></i>
+        </nav>
+      </div>
+    </header>
+    <section id="slide">
+      <div class="row p-0">
+        <div class="col col-lg-12">
+          <div
+            id="carouselExampleCaptions"
+            class="carousel-slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="../images/drinkwinecover.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <p class="hello">HELLO WE-RE BIZPRO</p>
+                  <p class="sub">SUB, HEAD, MOTTOOR MISSION SUBTITLE</p>
+                  <button
+                    class="see-btn btn border-danger rounded-0 text-light"
+                  >
+                    SEE OUR PROJECTS
+                  </button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../images/slide-2.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <p class="hello">HELLO WE-RE BIZPRO</p>
+                  <p class="sub">SUB, HEAD, MOTTOOR MISSION SUBTITLE</p>
+                  <button
+                    class="see-btn btn border-danger rounded-0 text-light"
+                  >
+                    SEE OUR PROJECTS
+                  </button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../images/slide-1.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <p class="hello">HELLO WE-RE BIZPRO</p>
+                  <p class="sub">SUB, HEAD, MOTTOOR MISSION SUBTITLE</p>
+                  <button
+                    class="see-btn btn border-danger rounded-0 text-light"
+                  >
+                    SEE OUR PROJECTS
+                  </button>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container">
+        <div class="top">
+          <h2>ABOUT OUR BIZPRO</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi
+            vel, exercitationem sunt temporibus ut iure tempora dignissimos
+            quidem atque natus.
+          </p>
+        </div>
+        <div class="search-div d-flex justify-content-between">
+          <input type="search" placeholder="Search by title" class="search" />
+          <select name="" id="select">
+            <option value="" hidden>Filter by price</option>
+            <option value="asc">Ascending</option>
+            <option value="desc">Descending</option>
+            <option value="def">Default</option>
+          </select>
+        </div>
+        <div class="row active cards">
+          <!-- <div class="col-lg-3 p-3">
+          <div>
+            <img src="../images/ai.png" alt="" class="w-50" />
+            <h5>WEB DEVELOPMENT</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam
+              non quia necessitatibus tempore odio recusandae.
+            </p>
+            <button>Add favourites</button>
+            <button>More Details</button>
+            <button>Delete</button>
+            <button>Edit</button>
+          </div>
+        </div> -->
+        </div>
+      </div>
+    </section>
+    <section id="our-team">
+      <div class="container">
+        <div class="top">
+          <h2 class="mb-3">MEET OUR TEAM</h2>
+          <p class="mb-5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi
+            assumenda nostrum laudantium tempore saepe ipsa!
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-6 col-lg-4 p-4">
+            <div>
+              <img src="../images/1.jpg" alt="" class="w-100" />
+              <div class="card-bottom">
+                <h6>Gonzalez Gina</h6>
+                <p>Web Developer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 p-4">
+            <div>
+              <img src="../images/2.jpg" alt="" class="w-100" />
+              <div class="card-bottom">
+                <h6>Holly Vincenzini</h6>
+                <p>Media Partner</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 p-4">
+            <div>
+              <img src="../images/3.jpg" alt="" class="w-100" />
+              <div class="card-bottom">
+                <h6>Ramirez Minita</h6>
+                <p>Graphic Design</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="our-latest-blog">
+      <div class="container">
+        <div class="top">
+          <h2 class="mb-3">OUR LATEST BLOG</h2>
+          <p class="mb-5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi
+            assumenda nostrum laudantium tempore saepe ipsa!
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-6 col-lg-4 p-4">
+            <div>
+              <img src="../images/1 (1).jpg" alt="" class="w-100" />
+              <div class="card-bottom">
+                <h6>Playback: Akufo-Addo speaks to business community</h6>
+                <p>Posted by admin at 04 Feb, 2017</p>
+                <p>
+                  ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                  sagittis iaculis velit in tristique. Curabitur ac urna urna
+                  sed accumsan...<a href="">Read More</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 p-4">
+            <div>
+              <img src="../images/2 (1).jpg" alt="" class="w-100" />
+              <div class="card-bottom">
+                <h6>Playback: Akufo-Addo speaks to business community</h6>
+                <p>Posted by admin at 04 Feb, 2017</p>
+                <p>
+                  ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                  sagittis iaculis velit in tristique. Curabitur ac urna urna
+                  sed accumsan...<a href="">Read More</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 p-4">
+            <div>
+              <img src="../images/3 (1).jpg" alt="" class="w-100" />
+              <div class="card-bottom">
+                <h6>Playback: Akufo-Addo speaks to business community</h6>
+                <p>Posted by admin at 04 Feb, 2017</p>
+                <p>
+                  ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                  sagittis iaculis velit in tristique. Curabitur ac urna urna
+                  sed accumsan...<a href="">Read More</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <hr />
+      <p>
+        Copyright @2018 All rights reserved | This template is made with by
+        Colorlib
+      </p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../JS/script.js"></script>
+  </body>
+</html>
