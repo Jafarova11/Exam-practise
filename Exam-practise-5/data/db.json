@@ -1,0 +1,24 @@
+{
+  "tips": [
+    {
+      "name": "Hall Berg",
+      "description": "Qui eos nobis natus",
+      "photo": "../images/o1.png",
+      "id": 1
+    },
+    {
+      "name": "Lani Hubbard",
+      "description": "Est et et accusamus",
+      "photo": "../images/o3.png",
+      "id": 2
+    }
+  ],
+  "basket": [
+    {
+      "name": "Lani Hubbard",
+      "description": "Est et et accusamus",
+      "photo": "../images/o3.png",
+      "id": 2
+    }
+  ]
+}
