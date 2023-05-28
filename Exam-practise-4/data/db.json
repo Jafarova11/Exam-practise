@@ -1,0 +1,36 @@
+{
+  "robots": [
+    {
+      "robotName": "Galvin Jackson",
+      "description": "Similique sint et do",
+      "photo": "../images/p3.png",
+      "id": 3
+    },
+    {
+      "robotName": "Samantha Moss",
+      "description": "Enim velit aut ea ad",
+      "photo": "../images/p2.png",
+      "id": 4
+    },
+    {
+      "robotName": "Tatyana Humphrey",
+      "description": "Est esse pariatur",
+      "photo": "../images/p4.png",
+      "id": 5
+    }
+  ],
+  "favs": [
+    {
+      "robotName": "Samantha Moss",
+      "description": "Enim velit aut ea ad",
+      "photo": "../images/p2.png",
+      "id": 4
+    },
+    {
+      "robotName": "Galvin Jackson",
+      "description": "Similique sint et do",
+      "photo": "../images/p4.png",
+      "id": 3
+    }
+  ]
+}
