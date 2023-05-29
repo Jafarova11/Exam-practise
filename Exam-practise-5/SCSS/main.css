@@ -59,11 +59,19 @@
   text-decoration: none;
   color: black;
 }
+* header .header-top nav .container ul li a:hover {
+  color: red;
+  transition: 0.3s;
+}
 * header .header-top nav .container ul li .dropdown button {
   background-color: white;
   border: none;
   color: black;
   font-size: 11px;
+}
+* header .header-top nav .container ul li .dropdown button:hover {
+  color: red;
+  transition: 0.3s;
 }
 * header .header-top nav .container ul li .dropdown ul {
   display: none;
@@ -100,20 +108,27 @@
 }
 * #bg-img {
   padding-top: 140px;
-  height: 80vh;
-  background-color: rgb(251, 229, 229);
+  height: 100vh;
+  background-image: url(../images/header-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
 }
 * #bg-img .content {
   padding-top: 8%;
   display: flex;
   flex-direction: column;
-  max-width: 550px;
+  max-width: 600px;
   margin: 0 auto;
+  color: white;
 }
 * #bg-img .content h1 {
   font-weight: 700;
-  font-size: 48px;
+  font-size: 52px;
+}
+* #bg-img .content p {
+  font-size: 14px;
+  font-weight: 300;
 }
 * #cards {
   padding: 4% 0;
@@ -249,12 +264,18 @@
   }
 }
 * #last-section {
-  background-color: rgb(244, 189, 189);
+  background-image: url(../images/callto-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 50vh;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+  overflow: hidden;
+}
+* #last-section .content {
+  color: white;
 }
 * #last-section .content h4 {
   font-size: 34px;
@@ -263,7 +284,6 @@
 * #last-section .content p {
   width: 700px;
   font-size: 14px;
-  color: gray;
 }
 @media only screen and (max-width: 991px) {
   * #last-section .content p {
