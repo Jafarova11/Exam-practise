@@ -1,0 +1,30 @@
+#favs {
+  padding: 6% 0;
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    .fav-cards {
+      .col-xl-3 {
+        .card {
+          border: transparent;
+          .btns {
+            .btn {
+              background-color: rgb(56, 74, 235);
+              color: white;
+              font-size: 14px;
+              &:hover {
+                border: 1px solid rgb(56, 74, 235);
+                background-color: transparent;
+                color: black;
+                transition: 0.4s;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 991px) {
+    padding: 6% 12%;
+  }
+}

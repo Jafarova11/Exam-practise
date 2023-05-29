@@ -1,0 +1,24 @@
+#details {
+    padding: 6% 0;
+  .container {
+    .detail {
+      .col-12 {
+        .card {
+          .btns {
+            .btn {
+              background-color: rgb(56, 74, 235);
+              color: white;
+              font-size: 14px;
+              &:hover {
+                border: 1px solid rgb(56, 74, 235);
+                background-color: transparent;
+                color: black;
+                transition: 0.4s;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

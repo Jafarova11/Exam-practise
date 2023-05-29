@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"
+      integrity="sha512-uMtXmF28A2Ab/JJO2t/vYhlaa/3ahUOgj1Zf27M5rOo8/+fcTUVH0/E0ll68njmjrLqOBjXM3V9NiPFL5ywWPQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../SCSS/main.css" />
+    <title>Aroma Shop- Home</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <img src="../images/logo (3).png" alt="" />
+        <nav>
+          <ul class="pt-2">
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <div class="dropdown">
+                <button
+                  class="btn"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Shop
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Shop Category</a></li>
+                  <li><a class="dropdown-item" href="#">Product Details</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Product Checkout</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Confirmation</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Shopping Cart</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="dropdown">
+                <button
+                  class="btn"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Blog
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Blog</a></li>
+                  <li><a class="dropdown-item" href="#">Blog Details</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="dropdown">
+                <button
+                  class="btn"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Pages
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Login</a></li>
+                  <li><a class="dropdown-item" href="#">Register</a></li>
+                  <li><a class="dropdown-item" href="#">Tracking</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="">Contact</a></li>
+            <li><a href="add&edit.html">Add New</a></li>
+          </ul>
+        </nav>
+        <div class="header-right">
+          <ul class="d-flex gap-3 align-center pt-3">
+            <li>
+              <input type="text" /><i class="fa-solid fa-magnifying-glass"></i>
+            </li>
+            <li>
+              <a href="fav.html"><i class="fa-regular fa-heart"></i></a>
+            </li>
+          </ul>
+          <button>Buy Now</button>
+        </div>
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+    <section id="hero-banner">
+      <!-- <div class="container"> -->
+      <!-- </div> -->
+      <div class="img-div">
+        <img src="../images/hero-banner.png" alt="" class="w-75" />
+      </div>
+      <div class="content d-flex">
+        <div class="left"></div>
+        <div class="right">
+          <div class="text">
+            <h6>Shop is fun</h6>
+            <h1>BROWSE OUR PREMIUM PRODUCT</h1>
+            <p>
+              Us which over of signs divide dominion deep fill bring they're
+              meat beho upon own earth without morning over third. Their male
+              dry. They are great appear whose land fly grass.
+            </p>
+            <button>Browse Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="active-section">
+      <div class="container">
+        <div class="top">
+          <p>Popular Item in the market</p>
+          <h2>Trending Product</h2>
+        </div>
+        <div class="search-select">
+          <input type="search" class="search" placeholder="Search by name.." />
+          <select name="" id="select">
+            <option value="" hidden>Filter by price</option>
+            <option value="asc">Ascending</option>
+            <option value="desc">Descending</option>
+            <option value="def">Default</option>
+          </select>
+        </div>
+        <div class="row pt-4 cards">
+          <!-- <div class="col-lg-3">
+            <div class="card">
+              <img src="../images/product1.png" alt="" class="w-100" />
+              <div class="card-text text-center">
+                <p class="type">type</p>
+                <h5>name</h5>
+                <p class="price">$price</p>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <section id="sale">
+      <div class="container">
+        <div class="left">
+          <div class="text text-center">
+            <h2 class="pb-2">Up To 50% Off</h2>
+            <h4>Winter Sale</h4>
+            <p>Him she'd let them sixth saw light</p>
+            <button>Shop Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="best-sellers">
+      <div class="container">
+        <div class="top">
+          <p>Popular Item in the market</p>
+          <h2>Best Sellers</h2>
+        </div>
+        <div class="row pt-4 cards">
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3 pt-4">
+            <div class="card">
+              <img src="../images/product1.png" alt="" class="w-100" />
+              <div class="card-text text-center">
+                <p class="type">Accessories</p>
+                <h5>Quartz Belt Watch</h5>
+                <p class="price">$150.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3 pt-4">
+            <div class="card">
+              <img src="../images/product2.png" alt="" class="w-100" />
+              <div class="card-text text-center">
+                <p class="type">Beauty</p>
+                <h5>Women Freshwash</h5>
+                <p class="price">$150.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3 pt-4">
+            <div class="card">
+              <img src="../images/product3.png" alt="" class="w-100" />
+              <div class="card-text text-center">
+                <p class="type">Decor</p>
+                <h5>Room Flash Light</h5>
+                <p class="price">$150.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3 pt-4">
+            <div class="card">
+              <img src="../images/product4.png" alt="" class="w-100" />
+              <div class="card-text text-center">
+                <p class="type">Decor</p>
+                <h5>Room Flash Light</h5>
+                <p class="price">$150.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="latest-news">
+      <div class="container">
+        <div class="top">
+          <p>Popular Item in the market</p>
+          <h2>Latest News</h2>
+        </div>
+        <div class="cards row">
+          <div class="col-12 col-md-6 col-lg-4 p-3">
+            <div class="card">
+              <img src="../images/blog1.png" alt="" />
+              <div class="text">
+                <div class="text-top d-flex gap-4">
+                  <p>By Admin</p>
+                  <p><i class="fa-regular fa-comment-dots"></i> 2 comments</p>
+                </div>
+                <div class="text-bottom">
+                  <h5>The Richland Center Shooping News and weekly shooper</h5>
+                  <p>
+                    Let one fifth i bring fly to divided face for bearing divide
+                    unto seed. Winged divided light Forth.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-3">
+            <div class="card">
+              <img src="../images/blog2.png" alt="" />
+              <div class="text">
+                <div class="text-top d-flex gap-4">
+                  <p>By Admin</p>
+                  <p><i class="fa-regular fa-comment-dots"></i> 2 comments</p>
+                </div>
+                <div class="text-bottom">
+                  <h5>The Richland Center Shooping News and weekly shooper</h5>
+                  <p>
+                    Let one fifth i bring fly to divided face for bearing divide
+                    unto seed. Winged divided light Forth.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-3">
+            <div class="card">
+              <img src="../images/blog3.png" alt="" />
+              <div class="text">
+                <div class="text-top d-flex gap-4">
+                  <p>By Admin</p>
+                  <p><i class="fa-regular fa-comment-dots"></i> 2 comments</p>
+                </div>
+                <div class="text-bottom">
+                  <h5>The Richland Center Shooping News and weekly shooper</h5>
+                  <p>
+                    Let one fifth i bring fly to divided face for bearing divide
+                    unto seed. Winged divided light Forth.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="text">
+        <p>
+          Copyright ©2023 All rights reserved | This template is made with
+          <i class="fa-solid fa-heart"></i> by
+          <a href="#">Colorlib</a>
+        </p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../JS/script.js"></script>
+  </body>
+</html>

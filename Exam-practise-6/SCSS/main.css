@@ -1,0 +1,464 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+* header {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  z-index: 5;
+  padding: 1% 0;
+}
+* header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+* header .container .fa-bars {
+  display: none;
+}
+* header .container nav ul {
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  align-items: center;
+}
+* header .container nav ul li a {
+  text-decoration: none;
+  color: rgb(32, 32, 32);
+  font-size: 13px;
+}
+* header .container nav ul li a:hover {
+  color: blue;
+  transition: 0.5s;
+}
+* header .container nav ul li .dropdown button {
+  font-size: 13px;
+}
+* header .container nav ul li .dropdown button:hover {
+  color: blue;
+  transition: 0.5s;
+}
+* header .container nav ul li .dropdown:hover .dropdown-menu {
+  display: block;
+}
+* header .container nav ul li .dropdown .dropdown-menu {
+  display: none;
+}
+* header .container .header-right {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+* header .container .header-right ul i {
+  cursor: pointer;
+  color: black;
+}
+* header .container .header-right ul li input {
+  display: none;
+}
+* header .container .header-right button {
+  border: 1px solid rgb(232, 232, 232);
+  border-radius: 20px;
+  background-color: transparent;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 8px 25px;
+}
+* header .container .header-right button:hover {
+  border: 1px solid rgb(56, 74, 235);
+  transition: 0.5s;
+}
+@media screen and (max-width: 991px) {
+  * header .container nav,
+  * header .container .header-right {
+    display: none;
+  }
+  * header .container .fa-bars {
+    display: block;
+  }
+}
+* #hero-banner {
+  padding-top: 50px;
+  position: relative;
+  overflow: hidden;
+}
+* #hero-banner .content {
+  z-index: 3;
+}
+* #hero-banner .content .left {
+  height: 85vh;
+  width: 35%;
+  background-color: rgb(56, 74, 235);
+}
+* #hero-banner .content .right {
+  height: 85vh;
+  width: 65%;
+  background-color: rgb(241, 246, 247);
+  display: flex;
+  align-items: center;
+}
+* #hero-banner .content .right .text {
+  width: 50%;
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+* #hero-banner .content .right .text h6 {
+  font-weight: 400;
+  font-size: 24px;
+  color: rgb(60, 60, 60);
+}
+* #hero-banner .content .right .text h1 {
+  font-weight: 600;
+}
+* #hero-banner .content .right .text p {
+  font-size: 13px;
+  color: gray;
+}
+* #hero-banner .content .right .text button {
+  width: 40%;
+  border: transparent;
+  background-color: rgb(56, 74, 235);
+  color: white;
+  border-radius: 25px;
+  font-size: 14px;
+  padding: 3% 4%;
+}
+* #hero-banner .content .right .text button:hover {
+  border: 1px solid rgb(56, 74, 235);
+  background-color: transparent;
+  color: black;
+  transition: 0.4s;
+}
+* #hero-banner .img-div {
+  z-index: 4;
+  position: absolute;
+  bottom: -1px;
+  left: 250px;
+}
+* #active-section {
+  padding: 6% 0;
+}
+* #active-section .container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+* #active-section .container .top p {
+  color: gray;
+  font-size: 13px;
+}
+* #active-section .container .top h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+}
+* #active-section .container .top h2::after {
+  content: "";
+  border: 1px solid rgb(56, 74, 235);
+  width: 10%;
+  margin-top: 10px;
+  margin-left: 110px;
+}
+* #active-section .container .search-select {
+  padding-top: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+* #active-section .container .search-select input,
+* #active-section .container .search-select select {
+  outline: none;
+  padding: 1% 4%;
+}
+@media screen and (max-width: 991px) {
+  * #active-section .container .search-select {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+}
+* #active-section .container .cards .col-xl-3 .card {
+  margin-top: 5%;
+  border: transparent;
+}
+* #active-section .container .cards .col-xl-3 .card .card-text {
+  padding-top: 3%;
+}
+* #active-section .container .cards .col-xl-3 .card .card-text h5 {
+  font-family: "Oswald", sans-serif;
+}
+* #active-section .container .cards .col-xl-3 .card .card-text p {
+  color: gray;
+}
+* #active-section .container .cards .col-xl-3 .card .card-text .type {
+  font-size: 14px;
+}
+* #active-section .container .cards .col-xl-3 .card .card-text .price {
+  font-weight: 500;
+}
+* #active-section .container .cards .col-xl-3 .card .card-text .btns .btn {
+  background-color: rgb(56, 74, 235);
+  color: white;
+  font-size: 14px;
+}
+* #active-section .container .cards .col-xl-3 .card .card-text .btns .btn:hover {
+  border: 1px solid rgb(56, 74, 235);
+  background-color: transparent;
+  color: black;
+  transition: 0.4s;
+}
+* #active-section .container .cards .col-xl-3 .card:hover .card-text h5 {
+  color: rgb(56, 74, 235);
+}
+@media screen and (max-width: 991px) {
+  * #active-section {
+    padding: 6% 12%;
+  }
+  * #active-section .container .top {
+    text-align: center;
+  }
+  * #active-section .container .top h2::after {
+    content: none;
+  }
+}
+* #sale {
+  background-image: url(../images/parallax-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+* #sale .container {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+}
+* #sale .container .left {
+  width: 45%;
+}
+* #sale .container .left .text h2,
+* #sale .container .left .text h4 {
+  font-family: "Oswald", sans-serif;
+}
+* #sale .container .left .text h2 {
+  font-size: 40px;
+  font-weight: 400;
+}
+* #sale .container .left .text p {
+  color: gray;
+  font-size: 14px;
+}
+* #sale .container .left .text button {
+  border: transparent;
+  background-color: rgb(56, 74, 235);
+  color: white;
+  border-radius: 25px;
+  font-size: 14px;
+  padding: 2% 8%;
+}
+* #sale .container .left .text button:hover {
+  border: 1px solid rgb(56, 74, 235);
+  background-color: transparent;
+  color: black;
+  transition: 0.4s;
+}
+@media screen and (max-width: 991px) {
+  * #sale .container .left {
+    width: 100%;
+  }
+}
+* #best-sellers {
+  padding: 6% 0;
+}
+* #best-sellers .container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+* #best-sellers .container .top p {
+  color: gray;
+  font-size: 13px;
+}
+* #best-sellers .container .top h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+}
+* #best-sellers .container .top h2::after {
+  content: "";
+  border: 1px solid rgb(56, 74, 235);
+  width: 8%;
+  margin-top: 10px;
+  margin-left: 60px;
+}
+* #best-sellers .container .cards .col-xl-3 .card {
+  border: transparent;
+}
+* #best-sellers .container .cards .col-xl-3 .card .card-text {
+  padding-top: 3%;
+}
+* #best-sellers .container .cards .col-xl-3 .card .card-text h5 {
+  font-family: "Oswald", sans-serif;
+}
+* #best-sellers .container .cards .col-xl-3 .card .card-text p {
+  color: gray;
+}
+* #best-sellers .container .cards .col-xl-3 .card .card-text .type {
+  font-size: 14px;
+}
+* #best-sellers .container .cards .col-xl-3 .card .card-text .price {
+  font-weight: 500;
+}
+* #best-sellers .container .cards .col-xl-3 .card:hover .card-text h5 {
+  color: rgb(56, 74, 235);
+}
+@media screen and (max-width: 991px) {
+  * #best-sellers {
+    padding: 6% 12%;
+  }
+  * #best-sellers .container .top {
+    text-align: center;
+  }
+  * #best-sellers .container .top h2::after {
+    content: none;
+  }
+}
+* #latest-news {
+  padding: 6% 0;
+}
+* #latest-news .container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+* #latest-news .container .top p {
+  color: gray;
+  font-size: 13px;
+}
+* #latest-news .container .top h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+}
+* #latest-news .container .top h2::after {
+  content: "";
+  border: 1px solid rgb(56, 74, 235);
+  width: 6%;
+  margin-top: 10px;
+  margin-left: 80px;
+}
+* #latest-news .container .cards {
+  padding-top: 2%;
+}
+* #latest-news .container .cards .col-lg-4 .card {
+  border: transparent;
+}
+* #latest-news .container .cards .col-lg-4 .card .text {
+  padding-top: 4%;
+  cursor: pointer;
+}
+* #latest-news .container .cards .col-lg-4 .card .text .text-top {
+  color: gray;
+  font-size: 13px;
+}
+* #latest-news .container .cards .col-lg-4 .card .text .text-bottom h5 {
+  font-size: 18px;
+  font-family: "Oswald", sans-serif;
+}
+* #latest-news .container .cards .col-lg-4 .card .text .text-bottom p {
+  color: gray;
+  font-size: 13px;
+}
+* #latest-news .container .cards .col-lg-4 .card:hover .text .text-bottom h5 {
+  color: rgb(56, 74, 235);
+}
+@media screen and (max-width: 991px) {
+  * #latest-news {
+    padding: 6% 12%;
+  }
+  * #latest-news .container .top {
+    text-align: center;
+  }
+  * #latest-news .container .top h2::after {
+    content: none;
+  }
+}
+* footer {
+  padding: 2% 4%;
+  background-color: rgb(5, 39, 75);
+}
+* footer .text {
+  text-align: center;
+}
+* footer .text p {
+  font-size: 14px;
+  color: white;
+}
+* footer .text p a {
+  text-decoration: none;
+}
+
+#add-edit {
+  height: 90vh;
+}
+#add-edit form .btn {
+  background-color: rgb(56, 74, 235);
+  color: white;
+  font-size: 14px;
+}
+#add-edit form .btn:hover {
+  border: 1px solid rgb(56, 74, 235);
+  background-color: transparent;
+  color: black;
+  transition: 0.4s;
+}
+
+#details {
+  padding: 6% 0;
+}
+#details .container .detail .col-12 .card .btns .btn {
+  background-color: rgb(56, 74, 235);
+  color: white;
+  font-size: 14px;
+}
+#details .container .detail .col-12 .card .btns .btn:hover {
+  border: 1px solid rgb(56, 74, 235);
+  background-color: transparent;
+  color: black;
+  transition: 0.4s;
+}
+
+#favs {
+  padding: 6% 0;
+}
+#favs .container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+#favs .container .fav-cards .col-xl-3 .card {
+  border: transparent;
+}
+#favs .container .fav-cards .col-xl-3 .card .btns .btn {
+  background-color: rgb(56, 74, 235);
+  color: white;
+  font-size: 14px;
+}
+#favs .container .fav-cards .col-xl-3 .card .btns .btn:hover {
+  border: 1px solid rgb(56, 74, 235);
+  background-color: transparent;
+  color: black;
+  transition: 0.4s;
+}
+@media screen and (max-width: 991px) {
+  #favs {
+    padding: 6% 12%;
+  }
+}/*# sourceMappingURL=main.css.map */

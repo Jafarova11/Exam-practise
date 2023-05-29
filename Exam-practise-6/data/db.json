@@ -1,0 +1,69 @@
+{
+  "products": [
+    {
+      "productName": "Natus eligendi qui a",
+      "type": "Id fugit eaque in ",
+      "price": "384",
+      "photo": "../images/product3.png",
+      "id": 1
+    },
+    {
+      "productName": "Occaecat facilis pro",
+      "type": "In sit voluptatem ul",
+      "price": "883",
+      "photo": "../images/product4.png",
+      "id": 2
+    },
+    {
+      "productName": "Et et quisquam et et",
+      "type": "Dolorem est sed ut ",
+      "price": "981",
+      "photo": "../images/product7.png",
+      "id": 3
+    },
+    {
+      "productName": "Vitae sint facere pa",
+      "type": "Soluta error dolore ",
+      "price": "628",
+      "photo": "../images/product6.png",
+      "id": 4
+    },
+    {
+      "productName": "Libero reiciendis oc",
+      "type": "Eiusmod consequat I",
+      "price": "242",
+      "photo": "../images/product5.png",
+      "id": 5
+    }
+  ],
+  "basket": [
+    {
+      "productName": "Et et quisquam et et",
+      "type": "Dolorem est sed ut ",
+      "price": "981",
+      "photo": "../images/product7.png",
+      "id": 3
+    },
+    {
+      "productName": "Vitae sint facere pa",
+      "type": "Soluta error dolore ",
+      "price": "628",
+      "photo": "../images/product6.png",
+      "id": 4
+    },
+    {
+      "productName": "Occaecat facilis pro",
+      "type": "In sit voluptatem ul",
+      "price": "883",
+      "photo": "../images/product4.png",
+      "id": 2
+    },
+    {
+      "productName": "Natus eligendi qui a",
+      "type": "Id fugit eaque in ",
+      "price": "384",
+      "photo": "../images/product3.png",
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+#add-edit {
+    height: 90vh;
+  form {
+    .btn {
+      background-color: rgb(56, 74, 235);
+      color: white;
+      font-size: 14px;
+      &:hover {
+        border: 1px solid rgb(56, 74, 235);
+        background-color: transparent;
+        color: black;
+        transition: 0.4s;
+      }
+    }
+  }
+}
