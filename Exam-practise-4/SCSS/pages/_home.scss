@@ -8,10 +8,9 @@
     scroll-behavior: smooth;
   }
   header {
-    // background-image: url(../../images/banner-bg.jpg);
-    // background-repeat: no-repeat;
-    // background-size: cover;
-    background-color: rgb(231, 214, 248);
+    background-image: url(../images/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     nav {
       position: fixed;
       width: 100%;
@@ -199,10 +198,9 @@
   }
   #features-made {
     padding: 8% 0;
-    // background-image: url(../../images/feature-bg.jpg);
-    // background-repeat: no-repeat;
-    // background-size: cover;
-    background-color: rgb(247, 103, 190);
+    background-image: url(../images/feature-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     .container {
       max-width: 1000px;
       margin: 0 auto;

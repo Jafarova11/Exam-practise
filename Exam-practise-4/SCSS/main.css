@@ -9,7 +9,9 @@
   scroll-behavior: smooth;
 }
 * header {
-  background-color: rgb(231, 214, 248);
+  background-image: url(../images/banner-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 * header nav {
   position: fixed;
@@ -191,7 +193,9 @@
 }
 * #features-made {
   padding: 8% 0;
-  background-color: rgb(247, 103, 190);
+  background-image: url(../images/feature-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 * #features-made .container {
   max-width: 1000px;
